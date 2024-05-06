@@ -1,9 +1,12 @@
 server:
-  port: 8080
+  port: 9092
 
 spring:
   application:
     name: ApplicationService
+  mvc:
+    pathmatch:
+      matching-strategy: PathPatternParser
 
 api:
   username: M.gabsi
@@ -13,3 +16,8 @@ api:
   resource:
       list_item: /Ecom_ItemList
       list_item_variant: /Ecom_ItemVariant
+      list_attributs_variant: /Ecom_ItemAttribut
+      category: /Ecom_CategoryList
+      country: /Ecom_Country
+      custom_path: /Ecom_CustomerList
+      adressDeliveryPath: /Ecom_CustomerDeliveryAdress
