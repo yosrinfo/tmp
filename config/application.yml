@@ -1,5 +1,11 @@
 server:
-  port: 8080
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:certificate.p12
+    key-store-password: Wen@pi0224$
+    key-store-type: PKCS12
+    key-alias: myalias
 
 spring:
   application:
@@ -13,7 +19,7 @@ api:
   password: Mhgi0643$
   domain: WENGLER
   base_url: http://213.135.235.116:5048/BC140_DEV/ODataV4/Company('Caves%20Wengler%20S.A.')
-  base_url_beta: http://bc.wengler.lu:14058/BC140_Test/api/beta/items
+  base_url_beta: http://213.135.235.116:5048/BC140_DEV/api/beta/items
   resource:
       list_item: /Ecom_ItemList
       list_item_variant: /Ecom_ItemVariant
