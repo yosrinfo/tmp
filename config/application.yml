@@ -13,6 +13,9 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: PathPatternParser
+    static-path-pattern: /swagger-ui/**
+  resources:
+    static-locations: classpath:/static/
 
 api:
   username: M.gabsi
@@ -28,3 +31,4 @@ api:
       country: /Ecom_Country
       custom_path: /Ecom_CustomerList
       adressDeliveryPath: /Ecom_CustomerDeliveryAdress
+      orderHeaderPath: /Ecom_SalesOrderHeader
