@@ -30,3 +30,5 @@ api:
       adressDeliveryPath: /Ecom_CustomerDeliveryAdress
       orderHeaderPath: /Ecom_SalesOrderHeader
       orderLinePath: /Ecom_SalesOrderLine
+      list_compaign: /Ecom_Compaign
+      list_compaign_detail: /Ecom_CampaignLine
