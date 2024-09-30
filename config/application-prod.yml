@@ -20,7 +20,7 @@ api:
   domain: WENGLER
   host: http://213.135.235.116:7048/BC140/api/beta/items
   base_url: http://213.135.235.116:7048/BC140/ODataV4/Company('Caves%20Wengler%20S.A.')
-  base_url_beta: http://213.135.116:7048/BC140/api/beta/items
+  base_url_beta: http://213.135.235.116:7048/BC140/api/beta/items
   resource:
     list_item: /Ecom_ItemList
     list_item_variant: /Ecom_ItemVariant
