@@ -18,6 +18,7 @@ api:
   username: M.gabsi
   password: Mhgi0643$
   domain: WENGLER
+  odata_url: http://213.135.235.116:5048/BC140_DEV/ODataV4/
   host: http://213.135.235.116:5048/BC140_DEV/api/beta/items
   base_url: http://213.135.235.116:5048/BC140_DEV/ODataV4/Company('Caves%20Wengler%20S.A.')
   base_url_beta: http://213.135.235.116:5048/BC140_DEV/api/beta/items
